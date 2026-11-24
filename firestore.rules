@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // CLASSROOM DEMO ONLY: any anonymously signed-in visitor can change shared demo data.
+    // NOT suitable for a real salon handling customer information.
+    match /salons/demo {
+      allow read, create, update: if request.auth != null;
+      allow delete: if false;
+    }
+  }
+}
