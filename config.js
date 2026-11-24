@@ -1,4 +1,3 @@
-
 window.FIREBASE_CONFIG = {
   apiKey: "AIzaSyBQz44jU-j646eMvuTA3i3oq1eDu_IT0j8",
   authDomain: "salon-queue-management-66f54.firebaseapp.com",
