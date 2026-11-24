@@ -1,3 +1,9 @@
-// Paste your Firebase Web App config between the braces to enable live cross-device sync.
-// These are public Firebase web identifiers, not private service-account credentials.
-window.FIREBASE_CONFIG = {};
+
+window.FIREBASE_CONFIG = {
+  apiKey: "AIzaSyBQz44jU-j646eMvuTA3i3oq1eDu_IT0j8",
+  authDomain: "salon-queue-management-66f54.firebaseapp.com",
+  projectId: "salon-queue-management-66f54",
+  storageBucket: "salon-queue-management-66f54.firebasestorage.app",
+  messagingSenderId: "628123960576",
+  appId: "1:628123960576:web:b37d26dfdaedd2f9bfdfe5"
+};
