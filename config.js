@@ -1,5 +1,5 @@
-window.FIREBASE_CONFIG  = {
-  apiKey: "AIzaSyBQz44jU-1646eMvuTA3i3oq1eDu_ITOj8",
+window.FIREBASE_CONFIG = {
+  apiKey: "AIzaSyBQz44jU-i646eMvuTA3i3oq1eDu_IT0j8",
   authDomain: "salon-queue-management-66f54.firebaseapp.com",
   projectId: "salon-queue-management-66f54",
   storageBucket: "salon-queue-management-66f54.firebasestorage.app",
